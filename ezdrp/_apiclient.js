@@ -1,7 +1,7 @@
 import { Httpx } from 'https://jslib.k6.io/httpx/0.0.6/index.js';
 import { log } from "../utils/log.js";
 import { EzdRpConfig } from './ezdrp-config.js';
-import { _EzdRpProfile } from './api/profile.js'
+import { _EzdRpApiProfile } from './api/profile.js'
 import { _EzdRpApiDashboard } from './api/dashboard.js'
 
 class _EzdRpClient {
