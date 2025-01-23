@@ -1,0 +1,1704 @@
+[
+  {
+    "wyjasnienie": "znak # to random ponizej/podmiotu, % to random uzytkownika",
+    "random": "96",
+    "podmiot_nazwa_format": "Ministerstwo Autotestowe #",
+    "podmiot_symbol_format": "ABE_#",
+    "podmiot_typ": "MINISTERSTWO",
+    "podmiot_epuap_format": "epuap_abe_#",
+    "podmiot_czy_istniejacy_aktualizowac": true,
+    "uzytkownicy_login_format": "u%abe#@ezdrp.gov.pl",
+    "uzytkownicy_haslo_format": "Test123$",
+    "numer_format": "#",
+    "ostatni_numer": "50",
+    "kluczAPI": false,
+    "uzytkownicy": [
+      {
+        "imie": "API",
+        "nazwisko": "Systemowy",
+        "stanowisko": "API",
+        "random": "100",
+        "kluczAPI": true
+      }
+    ],
+    "struktura": [
+      {
+        "nazwa": "Biuro Dyrektora Generalnego",
+        "symbol": "BDG",
+        "typ": "Biuro Dyrektora Generalnego",
+        "uzytkownicy": [
+          {
+            "imie": "Dorota",
+            "nazwisko": "Wielkopolska",
+            "stanowisko": "Dyrektor",
+            "random": "1",
+            "isadmin": 2
+          }
+        ],
+        "struktura": [
+          {
+            "nazwa": "Sekretariat Dyrektora Generalnego",
+            "symbol": "SDG",
+            "typ": "Biuro",
+            "uzytkownicy": [
+              {
+                "imie": "Zofia",
+                "nazwisko": "Śląska",
+                "stanowisko": "Sekretarz",
+                "random": "2"
+              }
+            ]
+          },
+          {
+            "nazwa": "Dział Komunikacji i Promocji",
+            "symbol": "DKP",
+            "typ": "Dział",
+            "uzytkownicy": [
+              {
+                "imie": "Roman",
+                "nazwisko": "Mazowiecki",
+                "stanowisko": "Kierownik",
+                "random": "3"
+              },
+              {
+                "imie": "Jacek",
+                "nazwisko": "Małopolski",
+                "stanowisko": "Podinspektor",
+                "random": "4"
+              },
+              {
+                "imie": "Joanna",
+                "nazwisko": "Podlaska",
+                "stanowisko": "podinspektor",
+                "random": "5"
+              },
+              {
+                "imie": "Kinga",
+                "nazwisko": "Kujawsko-Pomorska",
+                "stanowisko": "Specjalista główny",
+                "random": "6"
+              },
+              {
+                "imie": "Jan",
+                "nazwisko": "Lubelski",
+                "stanowisko": "Specjalista Główny",
+                "random": "7"
+              }
+            ]
+          },
+          {
+            "nazwa": "Samodzielne Stanowisko Pracy Audytora",
+            "symbol": "SSPA",
+            "typ": "Samodzielne Stanowisko Pracy",
+            "uzytkownicy": [
+              {
+                "imie": "Magdalena",
+                "nazwisko": "Rzeszowska",
+                "stanowisko": "Samodzielne stanowisko ds. Audytu i Kontroli",
+                "random": "8"
+              },
+              {
+                "imie": "Franciszek",
+                "nazwisko": "Warszawski",
+                "stanowisko": "Specjalista",
+                "random": "24"
+              }
+            ]
+          },
+          {
+            "nazwa": "Dział Organizacyjno-Prawny",
+            "symbol": "DOP",
+            "typ": "Dział",
+            "uzytkownicy": [
+              {
+                "imie": "Aleksandra",
+                "nazwisko": "Dolnośląska",
+                "stanowisko": "Kierownik",
+                "random": "9"
+              },
+              {
+                "imie": "Katarzyna",
+                "nazwisko": "Kołobrzeska",
+                "stanowisko": "Stażysta",
+                "random": "10"
+              },
+              {
+                "imie": "Jan",
+                "nazwisko": "Białostocki",
+                "stanowisko": "Specjalista",
+                "random": "11"
+              }
+            ],
+            "struktura": [
+              {
+                "nazwa": "Samodzielne Stanowisko Pracy ds. Administracji Systemami Informatycznymi",
+                "symbol": "SSPASI",
+                "typ": "Samodzielne Stanowisko Pracy",
+                "uzytkownicy": [
+                  {
+                    "imie": "Patrycja",
+                    "nazwisko": "Świętokrzyska",
+                    "stanowisko": "Administrator",
+                    "random": "12",
+                    "isadmin": 1
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro IT",
+                "symbol": "BIT",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Adam",
+                    "nazwisko": "Pomorski",
+                    "stanowisko": "Kierownik",
+                    "random": "13"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Samodzielne stanowisko pracy - Inspektor Ochrony Danych",
+                "symbol": "SSPIOD",
+                "typ": "Samodzielne Stanowisko Pracy",
+                "uzytkownicy": [
+                  {
+                    "imie": "Helena",
+                    "nazwisko": "Katowicka",
+                    "stanowisko": "Samodzielne stanowisko IOD",
+                    "random": "14"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Kancelaria ogólna",
+                "symbol": "KO",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Eliza",
+                    "nazwisko": "Krakowska",
+                    "stanowisko": "Kierownik",
+                    "random": "15"
+                  },
+                  {
+                    "imie": "Krzysztof",
+                    "nazwisko": "Łódzki",
+                    "stanowisko": "Specjalista",
+                    "random": "16"
+                  },
+                  {
+                    "imie": "Zofia",
+                    "nazwisko": "Podkarpacka",
+                    "stanowisko": "Specjalista",
+                    "random": "17"
+                  },
+                  {
+                    "imie": "Wojciech",
+                    "nazwisko": "Zachodniopomorski",
+                    "stanowisko": "Specjalista",
+                    "random": "18"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nazwa": "Samodzielne stanowisko pracy - Archiwista zakładowy",
+            "symbol": "SSPAZ",
+            "typ": "Samodzielne Stanowisko Pracy",
+            "uzytkownicy": [
+              {
+                "imie": "Edward",
+                "nazwisko": "Lubuski",
+                "stanowisko": "Samodzielne stanowisko pracy - Archiwista zakładowy",
+                "random": "19"
+              }
+            ]
+          },
+          {
+            "nazwa": "Dział Budżetu i Finansów",
+            "symbol": "DBIF",
+            "typ": "Dział",
+            "uzytkownicy": [
+              {
+                "imie": "Krystian",
+                "nazwisko": "Częstochowski",
+                "stanowisko": "Kierownik",
+                "random": "20"
+              },
+              {
+                "imie": "Ewa",
+                "nazwisko": "Koszalińska",
+                "stanowisko": "Specjalista",
+                "random": "21",
+                "epuap": true
+              }
+            ],
+            "struktura": [
+              {
+                "nazwa": "Biuro Inwestycji",
+                "symbol": "BI",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Barbara",
+                    "nazwisko": "Warmińsko-Mazurska",
+                    "stanowisko": "Kierownik",
+                    "random": "22"
+                  },
+                  {
+                    "imie": "Agnieszka",
+                    "nazwisko": "Opolska",
+                    "stanowisko": "Specjalista",
+                    "random": "23"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Samodzielne Stanowisko Pracy ds. Zarządzania Nieruchomościami",
+                "symbol": "SSPZN",
+                "typ": "Samodzielne Stanowisko Pracy",
+                "uzytkownicy": [
+                  {
+                    "imie": "Franciszek",
+                    "nazwisko": "Warszawski",
+                    "stanowisko": "Samodzielne stanowisko ds. zarządzania nieruchomościami",
+                    "random": "24"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nazwa": "Dział Współpracy Wojewódzkiej",
+            "symbol": "DWW",
+            "typ": "Dział",
+            "struktura": [
+              {
+                "nazwa": "Biuro Mazowieckie",
+                "symbol": "BWMZ",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Marianna",
+                    "nazwisko": "Radom",
+                    "stanowisko": "Kierownik",
+                    "random": "25"
+                  },
+                  {
+                    "imie": "Agata",
+                    "nazwisko": "Płock",
+                    "stanowisko": "Specjalista",
+                    "random": "26"
+                  },
+                  {
+                    "imie": "Barbara",
+                    "nazwisko": "Siedlce",
+                    "stanowisko": "Specjalista",
+                    "random": "27"
+                  },
+                  {
+                    "imie": "Kazimierz",
+                    "nazwisko": "Ostrołęka",
+                    "stanowisko": "Specjalista",
+                    "random": "28"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Podlaskie",
+                "symbol": "BWPO",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Zdzisław",
+                    "nazwisko": "Łomża",
+                    "stanowisko": "Kierownik",
+                    "random": "29"
+                  },
+                  {
+                    "imie": "Franciszek",
+                    "nazwisko": "Łapy",
+                    "stanowisko": "Specjalista",
+                    "random": "30"
+                  },
+                  {
+                    "imie": "Bronisław",
+                    "nazwisko": "Suwałki",
+                    "stanowisko": "Specjalista",
+                    "random": "31"
+                  },
+                  {
+                    "imie": "Hania",
+                    "nazwisko": "Augustów",
+                    "stanowisko": "Specjalista",
+                    "random": "32"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Lubelskie",
+                "symbol": "BWLU",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Sebastian",
+                    "nazwisko": "Zamość",
+                    "stanowisko": "Kierownik",
+                    "random": "33"
+                  },
+                  {
+                    "imie": "Diana",
+                    "nazwisko": "Chełm",
+                    "stanowisko": "Specjalista",
+                    "random": "34"
+                  },
+                  {
+                    "imie": "Miłosz",
+                    "nazwisko": "Płock",
+                    "stanowisko": "Specjalista",
+                    "random": "35"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Podkarpackie",
+                "symbol": "BWPK",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Daniel",
+                    "nazwisko": "Mielec",
+                    "stanowisko": "Kierownik",
+                    "random": "36"
+                  },
+                  {
+                    "imie": "Judyta",
+                    "nazwisko": "Przemyśl",
+                    "stanowisko": "Specjalista",
+                    "random": "37"
+                  },
+                  {
+                    "imie": "Stefan",
+                    "nazwisko": "Sanok",
+                    "stanowisko": "Specjalista",
+                    "random": "38"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Świętokrzyskie",
+                "symbol": "BWSW",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Dorota",
+                    "nazwisko": "Staszów",
+                    "stanowisko": "Kierownik",
+                    "random": "39"
+                  },
+                  {
+                    "imie": "Julian",
+                    "nazwisko": "Jędrzejów",
+                    "stanowisko": "Specjalista",
+                    "random": "40"
+                  },
+                  {
+                    "imie": "Joanna",
+                    "nazwisko": "Pińczów",
+                    "stanowisko": "Specjalista",
+                    "random": "41"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Łódzkie",
+                "symbol": "BWLO",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Piotr",
+                    "nazwisko": "Trybunalski",
+                    "stanowisko": "Kierownik",
+                    "random": "42"
+                  },
+                  {
+                    "imie": "Aleksandra",
+                    "nazwisko": "Kutno",
+                    "stanowisko": "Specjalista",
+                    "random": "43"
+                  },
+                  {
+                    "imie": "Krystian",
+                    "nazwisko": "Łowicz",
+                    "stanowisko": "Specjalista",
+                    "random": "44"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Wrocławskie",
+                "symbol": "BWWR",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Alicja",
+                    "nazwisko": "Lubin",
+                    "stanowisko": "Kierownik",
+                    "random": "45"
+                  },
+                  {
+                    "imie": "Adam",
+                    "nazwisko": "Wałbrzych",
+                    "stanowisko": "Specjalista",
+                    "random": "46"
+                  },
+                  {
+                    "imie": "Edyta",
+                    "nazwisko": "Oleśnica",
+                    "stanowisko": "Specjalista",
+                    "random": "47"
+                  }
+                ]
+              },
+              {
+                "nazwa": "Biuro Wielkopolskie",
+                "symbol": "BWWP",
+                "typ": "Biuro",
+                "uzytkownicy": [
+                  {
+                    "imie": "Władysław",
+                    "nazwisko": "Gniezno",
+                    "stanowisko": "Kierownik",
+                    "random": "48"
+                  },
+                  {
+                    "imie": "Marta",
+                    "nazwisko": "Konin",
+                    "stanowisko": "Specjalista",
+                    "random": "49"
+                  },
+                  {
+                    "imie": "Wincenty",
+                    "nazwisko": "Piła",
+                    "stanowisko": "Specjalista",
+                    "random": "50"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "role": [
+      {
+        "nazwa": "Dyrektor Generalny",
+        "uprawnienia": [
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Raporty.Generowanie",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.Lista",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Wydruki.Generowanie",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Raporty.Generowanie",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Dokumenty.Podpisywanie",
+            "przypisanie": "Stanowisko"
+          }
+        ]
+      },
+      {
+        "nazwa": "Dyrektor",
+        "uprawnienia": [
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Rejestry.Lista",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.Rodo",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Raporty.Generowanie",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Rejestry.UsuwanieWpisow",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Dokumenty.Podpisywanie",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Stanowisko"
+          }
+        ]
+      },
+      {
+        "nazwa": "Kierownik",
+        "uprawnienia": [
+          {
+            "prawo": "Rejestry.Lista",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.Rodo",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Raporty.Generowanie",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Raporty.Generowanie",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Rejestry.UsuwanieWpisow",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Dokumenty.Podpisywanie",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Procesy.Tworzenie",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Stanowisko"
+          }
+        ]
+      },
+      {
+        "nazwa": "Kancelista",
+        "uprawnienia": [
+          {
+            "prawo": "Kancelaria.ArchiwizacjaSkladChronologiczny",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.ArchiwizacjaSkladChronologiczny",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Kancelaria.ArchiwizacjaSkladChronologiczny",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "Podmiot"
+          },
+          { "prawo": "Kancelaria.Metadane", "przypisanie": "Podmiot" },
+          {
+            "prawo": "Kancelaria.PotwierdzeniaZwroty",
+            "przypisanie": "Podmiot"
+          },
+          { "prawo": "Kancelaria.Rejestracja", "przypisanie": "Jednostka" },
+          {
+            "prawo": "Kancelaria.Rejestracja",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          { "prawo": "Kancelaria.Rejestracja", "przypisanie": "Podmiot" },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "Podmiot"
+          },
+          { "prawo": "Kancelaria.UsuwanieRPW", "przypisanie": "Stanowisko" },
+          { "prawo": "Kancelaria.UsuwanieRPW", "przypisanie": "Jednostka" },
+          {
+            "prawo": "Kancelaria.UsuwanieRPW",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          { "prawo": "Kancelaria.UsuwanieRPW", "przypisanie": "Podmiot" },
+          {
+            "prawo": "Kancelaria.ZmianaOdwzorowania",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.KorespondencjaWychodzaca",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Wydruki.Generowanie",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Wydruki.Generowanie",
+            "przypisanie": "JednostkiPodlegle"
+          }
+        ]
+      },
+      {
+        "nazwa": "Pracownik merytoryczny",
+        "uprawnienia": [
+          {
+            "prawo": "Rejestry.Lista",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.DodawanieWpisow",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Rejestry.EdycjaWpisow",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Rejestry.UsuwanieWpisow",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Rejestry.UsuwanieWpisow",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Dokumenty.Podpisywanie",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Rejestry.KorespondencjaWychodzaca",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Rejestry.PrzesylkiWplywajace",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.Wspoldzielenie",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.WysylkaEpuapBezPodpisu",
+            "przypisanie": "Stanowisko"
+          }
+        ]
+      },
+      {
+        "nazwa": "Administrator",
+        "uprawnienia": [
+          {
+            "prawo": "BazaKontaktow.Edycja",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Administracja.Cenniki",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.ePUAP",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Grupowe",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.JRWA",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Komunikaty",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.MetadaneAtrybuty",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.OddzialyKorespondencjiWychodzacej",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Podmiot",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.PrzydatneLinki",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Raporty",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Rejestry",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Rejestry.Dodawanie",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.SchematyProcesow",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.SkladyChronologiczne",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Slowniki",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Synchronizacja",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.SzablonyDokumentow",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.SzablonyDokumentowPKN",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.SzablonyWydrukow",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Uprawnienia",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Ustawienia",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Zastepstwa",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Administracja.Zdarzenia",
+            "przypisanie": "Podmiot"
+          }
+        ]
+      },
+      {
+        "nazwa": "Sekretariat",
+        "uprawnienia": [
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Rejestry.Lista",
+            "przypisanie": "Podmiot"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.Rejestracja",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Zastepstwa.Ustawianie",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Kancelaria.KorespondencjaWychodzaca",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Kancelaria.Rejestracja",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Kancelaria.SkladChronologiczny",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Wydruki.Generowanie",
+            "przypisanie": "JednostkiPodlegle"
+          }
+        ]
+      },
+      {
+        "nazwa": "API",
+        "uprawnienia": [
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Edycja",
+            "przypisanie": "JednostkiPodlegle"
+          },
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Podglad",
+            "przypisanie": "Stanowisko"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "JednostkiPodlegle"
+          }
+        ]
+      },
+      {
+        "nazwa": "Archiwista",
+        "uprawnienia": [
+          {
+            "prawo": "Sprawy.Lista",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.ZmianaProwadzacego",
+            "przypisanie": "Jednostka"
+          },
+          {
+            "prawo": "Sprawy.Archiwum",
+            "przypisanie": "Stanowisko"
+          }
+        ]
+      },
+      { "nazwa": "Stażysta", "uprawnienia": [] }
+    ],
+    "stanowiska_map": [
+      { "nazwa": "Dyrektor", "role": ["Dyrektor"] },
+      { "nazwa": "Kierownik", "role": ["Kierownik"] },
+      {
+        "nazwa": "Sekretarz",
+        "role": ["Pracownik merytoryczny", "Sekretariat"]
+      },
+      { "nazwa": "*", "role": ["Pracownik merytoryczny"] },
+      {
+        "nazwa": "Administrator",
+        "role": ["Administrator", "Pracownik merytoryczny"]
+      },
+      {
+        "nazwa": "KO_Specjalista",
+        "role": ["Kancelista"]
+      },
+      {
+        "nazwa": "BDG_Dyrektor",
+        "role": ["Dyrektor Generalny"]
+      },
+      {
+        "nazwa": "BDG_8",
+        "role": ["mozna po symbolu komorki i random usera"]
+      },
+      {
+        "nazwa": "Samodzielne stanowisko IOD",
+        "role": ["Pracownik merytoryczny", "Kancelista"]
+      },
+      {
+        "nazwa": "Samodzielne stanowisko ds. zarządzania nieruchomościami",
+        "role": ["Pracownik merytoryczny", "Kancelista"]
+      },
+      { "nazwa": "API", "role": ["API"] },
+      {
+          "nazwa": "*",
+          "role": [
+              "Pracownik merytoryczny"
+          ]
+      }
+    ],
+    "kontakty": [
+      {
+        "idImie": null,
+        "idDrugieImie": null,
+        "idNazwisko": null,
+        "nazwaPodmiotu": "Ministerstwo Finansów",
+        "listaAdresowEmail": [
+          {
+            "id": "",
+            "email": "kancelaria@mfezdrptest.gov.pl",
+            "czyDomyslny": true
+          }
+        ],
+        "typAdresata": 1,
+        "listaAdresow": [
+          {
+            "idMiejscowosc": 192263,
+            "idUlica": 211360,
+            "idKraj": "PL",
+            "numerDomu": "12",
+            "numerLokalu": "",
+            "kodPocztowy": "00-916",
+            "poczta": "",
+            "skrytkaPocztowa": "",
+            "typAdresu": 2
+          }
+        ],
+        "listaPodadresaci": [],
+        "listaEPUAP": [],
+        "metadaneAdresata": {
+          "listaMetadanych": {
+            "NIP": "5260250274",
+            "REGON": "000002217",
+            "KRS": ""
+          },
+          "idObiekt": null,
+          "klucz": "EZDRP.Metadane.Klucze4"
+        },
+        "czyZbiorczy": false,
+        "prefix": "",
+        "sufix": ""
+      },
+      {
+        "idImie": null,
+        "idDrugieImie": null,
+        "idNazwisko": null,
+        "nazwaPodmiotu": "Ministerstwo Zdrowia",
+        "listaAdresowEmail": [
+          {
+            "id": "",
+            "email": "kancelaria@mzezdrptest.gov.pl",
+            "czyDomyslny": true
+          }
+        ],
+        "typAdresata": 1,
+        "listaAdresow": [
+          {
+            "idMiejscowosc": 192263,
+            "idUlica": 223423,
+            "idKraj": "PL",
+            "numerDomu": "15",
+            "numerLokalu": "",
+            "kodPocztowy": "00-952",
+            "poczta": "",
+            "skrytkaPocztowa": "",
+            "typAdresu": 2
+          }
+        ],
+        "listaPodadresaci": [],
+        "listaEPUAP": [
+          {
+            "identyfikator": "InspektoratSSSnieprawdziwy",
+            "skrytka": "SkrytkaESP",
+            "czyDomyslny": true
+          }
+        ],
+        "metadaneAdresata": {
+          "listaMetadanych": {
+            "NIP": "5251918554",
+            "REGON": "000287987",
+            "KRS": ""
+          },
+          "idObiekt": null,
+          "klucz": "EZDRP.Metadane.Klucze4"
+        },
+        "czyZbiorczy": false,
+        "prefix": "",
+        "sufix": ""
+      },
+      {
+        "idImie": null,
+        "idDrugieImie": null,
+        "idNazwisko": null,
+        "nazwaPodmiotu": "Ministerstwo Sportu",
+        "listaAdresowEmail": [
+          {
+            "id": "",
+            "email": "kontakt@msitezdrptest.gov.pl",
+            "czyDomyslny": true
+          }
+        ],
+        "typAdresata": 1,
+        "listaAdresow": [
+          {
+            "idMiejscowosc": 192263,
+            "idUlica": 223486,
+            "idKraj": "PL",
+            "numerDomu": "14",
+            "numerLokalu": "",
+            "kodPocztowy": "00-082",
+            "poczta": "",
+            "skrytkaPocztowa": "",
+            "typAdresu": 2
+          }
+        ],
+        "listaPodadresaci": [],
+        "listaEPUAP": [
+          {
+            "identyfikator": "nieprawdziwekonto123",
+            "skrytka": "SkrytkaESP",
+            "czyDomyslny": true
+          }
+        ],
+        "metadaneAdresata": {
+          "listaMetadanych": {
+            "NIP": "5262873602",
+            "REGON": "140217142",
+            "KRS": ""
+          },
+          "idObiekt": null,
+          "klucz": "EZDRP.Metadane.Klucze4"
+        },
+        "czyZbiorczy": false,
+        "prefix": "",
+        "sufix": ""
+      },
+      {
+        "idImie": null,
+        "idDrugieImie": null,
+        "idNazwisko": null,
+        "nazwaPodmiotu": "Ministerstwo Rolnictwa i Rozwoju Wsi",
+        "listaAdresowEmail": [
+          {
+            "id": "",
+            "email": "kancelaria@minrolezdrptest.gov.pl",
+            "czyDomyslny": true
+          }
+        ],
+        "typAdresata": 1,
+        "listaAdresow": [
+          {
+            "idMiejscowosc": 192263,
+            "idUlica": 223947,
+            "idKraj": "PL",
+            "numerDomu": "30",
+            "numerLokalu": "",
+            "kodPocztowy": "00-930",
+            "poczta": "",
+            "skrytkaPocztowa": "",
+            "typAdresu": 2
+          }
+        ],
+        "listaPodadresaci": [],
+        "listaEPUAP": [
+          {
+            "identyfikator": "nieprawdziwypodmiot321",
+            "skrytka": "pulltest",
+            "czyDomyslny": true
+          }
+        ],
+        "metadaneAdresata": {
+          "listaMetadanych": {
+            "NIP": "5261281638",
+            "REGON": "000063880",
+            "KRS": ""
+          },
+          "idObiekt": null,
+          "klucz": "EZDRP.Metadane.Klucze4"
+        },
+        "czyZbiorczy": false,
+        "prefix": "",
+        "sufix": ""
+      },
+      {
+        "idImie": null,
+        "idDrugieImie": null,
+        "idNazwisko": null,
+        "nazwaPodmiotu": "Ministerstwo Aktywów Państwowych",
+        "listaAdresowEmail": [
+          {
+            "id": "",
+            "email": "map@mapezdrptest.gov.pl",
+            "czyDomyslny": true
+          }
+        ],
+        "typAdresata": 1,
+        "listaAdresow": [
+          {
+            "idMiejscowosc": 192263,
+            "idUlica": 224044,
+            "idKraj": "PL",
+            "numerDomu": "36",
+            "numerLokalu": "",
+            "kodPocztowy": "00-522",
+            "poczta": "",
+            "skrytkaPocztowa": "",
+            "typAdresu": 2
+          }
+        ],
+        "listaPodadresaci": [],
+        "listaEPUAP": [
+          {
+            "identyfikator": "podmiotnieprawdziwy342",
+            "skrytka": "skrytka",
+            "czyDomyslny": true
+          }
+        ],
+        "listaAdresEDoreczenia": [],
+        "metadaneAdresata": {
+          "listaMetadanych": {
+            "NIP": "7010528752",
+            "REGON": "363209612",
+            "KRS": ""
+          },
+          "idObiekt": null,
+          "klucz": "EZDRP.Metadane.Klucze4"
+        },
+        "czyZbiorczy": false,
+        "prefix": "",
+        "sufix": ""
+      }
+    ],
+    "cennik": [
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list polecony + ZPO-Krajowa-PLN-Priorytetowa",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki3",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": true,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "listaWykazowCennika": [
+          {
+            "cena": 5,
+            "idWymiar": "IdWymiarPrzesylki11",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 7,
+            "idWymiar": "IdWymiarPrzesylki12",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 9,
+            "idWymiar": "IdWymiarPrzesylki13",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      },
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list polecony + ZPO-Krajowa-PLN-Ekonomiczna",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki3",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": false,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "dataDoDostepnosci": null,
+        "listaWykazowCennika": [
+          {
+            "cena": 3,
+            "idWymiar": "IdWymiarPrzesylki11",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 5,
+            "idWymiar": "IdWymiarPrzesylki12",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 7,
+            "idWymiar": "IdWymiarPrzesylki13",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      },
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list polecony-Krajowa-PLN-Priorytetowa",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki2",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": true,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "listaWykazowCennika": [
+          {
+            "cena": 2,
+            "idWymiar": "IdWymiarPrzesylki6",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 4,
+            "idWymiar": "IdWymiarPrzesylki7",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 6,
+            "idWymiar": "IdWymiarPrzesylki8",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      },
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list polecony-Krajowa-PLN-Ekonomiczna",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki2",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": false,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "listaWykazowCennika": [
+          {
+            "cena": 1.5,
+            "idWymiar": "IdWymiarPrzesylki6",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 3,
+            "idWymiar": "IdWymiarPrzesylki7",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 4.5,
+            "idWymiar": "IdWymiarPrzesylki8",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      },
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list zwykły-Krajowa-PLN-Priorytetowa",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki1",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": true,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "listaWykazowCennika": [
+          {
+            "cena": 2,
+            "idWymiar": "IdWymiarPrzesylki1",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 3,
+            "idWymiar": "IdWymiarPrzesylki2",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 4,
+            "idWymiar": "IdWymiarPrzesylki3",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      },
+      {
+        "idCennik": null,
+        "nazwa": "Poczta Polska-list zwykły-Krajowa-PLN-Ekonomiczna",
+        "idCennikOperator": "EZDRP.KW.Operator1",
+        "idRodzajPrzesylki": "EZDRP.KW.RodzajPrzesylki1",
+        "idStrefaPrzesylki": "EZDRP.KW.Strefa1",
+        "waluta": "EZDRP.KW.Waluta1",
+        "czyPriorytet": false,
+        "dataOdDostepnosci": "2020-01-01T01:01:01.999Z",
+        "listaWykazowCennika": [
+          {
+            "cena": 1,
+            "idWymiar": "IdWymiarPrzesylki1",
+            "kolejnosc": 0,
+            "nazwa": "Format S (< 500g)",
+            "opis": ""
+          },
+          {
+            "cena": 2,
+            "idWymiar": "IdWymiarPrzesylki2",
+            "kolejnosc": 0,
+            "nazwa": "Format M (< 1000g)",
+            "opis": ""
+          },
+          {
+            "cena": 3,
+            "idWymiar": "IdWymiarPrzesylki3",
+            "kolejnosc": 0,
+            "nazwa": "Format L (< 2000g)",
+            "opis": ""
+          }
+        ],
+        "czyLokalny": false
+      }
+    ],
+    "sklady": [
+      {
+        "nazwa": "Skład pełny",
+        "symbol": "SPO",
+        "opis": "",
+        "rodzajSkladu": 1,
+        "idLokalizacja": ""
+      },
+      {
+        "nazwa": "Skład niepełny",
+        "symbol": "SNO",
+        "opis": "",
+        "rodzajSkladu": 2,
+        "idLokalizacja": ""
+      },
+      {
+        "nazwa": "Skład ZPO",
+        "symbol": "SZPO",
+        "opis": "",
+        "rodzajSkladu": 7,
+        "idLokalizacja": ""
+      }
+    ],
+    "szablony_dokumentow": [
+      {
+        "folder": { "nazwa": "Szablony autotestowe" },
+        "plikbase64": "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",
+        "szablon": {
+          "idFileRepository": "",
+          "idKatalog": "",
+          "nazwaSzablonu": "Szablon autotestowy",
+          "nazwaPliku": "testowy szablon.docx"
+        }
+      }
+    ],
+    "jrwa": [
+      { "jrwa": "0010", "t": 2, "nas": true, "rejestr": true },
+      { "jrwa": "0011", "t": 2, "pt": ["DBIF", "BI"], "rejestr": true },
+      { "jrwa": "000", "t": 2 },
+      { "jrwa": "002", "t": 2, "pt": ["DOP"], "rejestr": true },
+      { "jrwa": "0042", "t": 1, "nas": true, "rejestr": true },
+      { "jrwa": "022", "min": 0, "max": 3, "t": 1 },
+      { "jrwa": "034", "min": 0, "max": 4, "t": 2 },
+      { "jrwa": "044", "min": 0, "max": 4, "t": 1 },
+
+      { "jrwa": "12", "min": 0, "max": 5, "t": 2 },
+      { "jrwa": "151", "min": 0, "max": 4, "t": 1 },
+      { "jrwa": "153", "min": 0, "max": 6, "t": 2 },
+      { "jrwa": "161", "min": 0, "max": 4, "t": 1 },
+
+      { "jrwa": "312", "min": 0, "max": 7, "t": 2 },
+
+      { "jrwa": "772", "min": 0, "max": 4, "t": 1 },
+      { "jrwa": "754", "min": 0, "max": 4, "t": 2 },
+      { "jrwa": "753", "min": 0, "max": 7, "t": 1 },
+
+      { "jrwa": "855", "min": 0, "max": 6, "t": 2 },
+      { "jrwa": "852", "min": 0, "max": 3, "t": 1 },
+      { "jrwa": "854", "min": 0, "max": 4, "t": 2 },
+      { "jrwa": "87", "min": 0, "max": 5, "t": 1 },
+      { "jrwa": "864", "min": 0, "max": 4, "t": 2 },
+
+      { "jrwa": "98", "min": 0, "max": 5, "t": 1 },
+      { "jrwa": "961", "min": 0, "max": 5, "t": 2 },
+      { "jrwa": "951", "min": 0, "max": 5, "t": 1 },
+      { "jrwa": "974", "min": 0, "max": 2, "t": 2 },
+      { "jrwa": "971", "min": 0, "max": 4, "t": 1 },
+      { "jrwa": "96", "min": 2, "max": 7, "t": 2 },
+      { "jrwa": "952", "min": 0, "max": 3, "t": 1 },
+      { "jrwa": "953", "min": 0, "max": 3, "t": 2 },
+      { "jrwa": "93", "min": 0, "max": 4, "t": 1 },
+      { "jrwa": "921", "min": 0, "max": 6, "t": 2 },
+      { "jrwa": "905", "min": 0, "max": 4, "t": 1 },
+      { "jrwa": "902", "min": 0, "max": 7, "t": 2 }
+    ],
+    "rejestry": [
+      {
+        "id": null,
+        "idSystemowe": null,
+        "nazwa": "Autotestowy rejestr ręczny",
+        "opis": "Opis rejestru ręcznego",
+        "typProwadzenia": "reczny",
+        "typProwadzeniaTemp": "{\"label\":\"Ręczny\",\"value\":\"reczny\"}",
+        "typDostepu": "1",
+        "atrybuty": [
+          {
+            "id": null,
+            "etykieta": "Pole tekst wymagane",
+            "typAtrybutu": "tekst",
+            "czyWymagany": true,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 0,
+            "rodzajAtrybutu": 1
+          },
+          {
+            "id": null,
+            "etykieta": "Pole tekst niewymagane",
+            "typAtrybutu": "tekst",
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 1,
+            "rodzajAtrybutu": 1
+          },
+          {
+            "id": null,
+            "etykieta": "Pole liczbowe",
+            "typAtrybutu": "liczba",
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 2,
+            "rodzajAtrybutu": 1
+          },
+          {
+            "id": null,
+            "etykieta": "Pole autonumerowane",
+            "rodzajSekwencji": 1,
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 3,
+            "rodzajAtrybutu": 2
+          }
+        ],
+        "listaPol": "",
+        "listaJrwa": []
+      },
+      {
+        "id": null,
+        "idSystemowe": null,
+        "nazwa": "Autotestowy rejestr z pisma",
+        "opis": "Opis rejestru z pisma",
+        "typProwadzenia": "pismo",
+        "typProwadzeniaTemp": "{\"label\":\"Z pisma\",\"value\":\"pismo\"}",
+        "typDostepu": "1",
+        "atrybuty": [
+          {
+            "id": null,
+            "etykieta": "Pole tekstowe niewymagane",
+            "typAtrybutu": "tekst",
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 0,
+            "rodzajAtrybutu": 1
+          },
+          {
+            "id": null,
+            "etykieta": "Pole liczbowe",
+            "typAtrybutu": "liczban",
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 1,
+            "rodzajAtrybutu": 1
+          }
+        ],
+        "listaPol": "",
+        "listaJrwa": []
+      },
+      {
+        "id": null,
+        "idSystemowe": null,
+        "nazwa": "Autotestowy rejestr ze spraw",
+        "opis": "Opis rejestru ze spraw",
+        "typProwadzenia": "sprawa",
+        "typProwadzeniaTemp": "{\"label\":\"Ze sprawy\",\"value\":\"sprawa\"}",
+        "typDostepu": "1",
+        "atrybuty": [
+          {
+            "id": null,
+            "etykieta": "Pole rocznie autonumerowane",
+            "rodzajSekwencji": 2,
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 0,
+            "rodzajAtrybutu": 2
+          },
+          {
+            "id": null,
+            "etykieta": "Pole opcjonalne",
+            "typAtrybutu": "tekst",
+            "czyWymagany": false,
+            "czyTylkoDoOdczytu": false,
+            "kolejnosc": 1,
+            "rodzajAtrybutu": 1
+          }
+        ],
+        "listaPol": "",
+        "listaJrwa": []
+      }
+    ],
+    "konfiguracja_epuap_invalid": {
+      "adres": "https://int.epuap.gov.pl",
+      "idKonto": "",
+      "certyfikat": "",
+      "haslo": "",
+      "numerSeryjny": "",
+      "skrytki": ["SkrytkaESP"],
+      "domyslnaSkrytka": "SkrytkaESP",
+      "czyWlaczona": true,
+      "adresProfilZaufany": "https://int.pz.gov.pl",
+      "tpSigning5": true,
+      "stanowiskoOdbiorca": "",
+      "idUzytkownik": "",
+      "idStanowiskoOdbiorca": ""
+    }
+  }
+]

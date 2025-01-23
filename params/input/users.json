@@ -1,0 +1,89 @@
+{
+  "login_format": "u$1$abe$2$@ezdrp.gov.pl",
+  "p1": { "from": 1, "to": 24 },
+  "p2": {"from": 6000, "to": 6199},
+  "password": "Test123$",
+
+  "roles_splitter": "abe",
+  "roles_default": {
+    "roles": ["Pracownik merytoryczny"],
+    "excluded_roles": ["Dyrektor", "Kierownik"]
+  },
+  "roles_map": [
+    {
+      "key": "Kancelista",
+      "login": ["u16", "u17", "u18", "u24"],
+      "name": ["Warszawski", "Zachodniopomorski", "Podkarpacka", "Łódzki"]
+    },
+    { "key": "Dyrektor", "login": ["u1"], "name": ["Wielkopolska"] },
+    {
+      "key": "Kierownik",
+      "login": ["u3", "u9", "u13", "u15", "u20", "u22"],
+      "name": [
+        "Mazowiecki",
+        "Dolnośląska",
+        "Pomorski",
+        "Krakowska",
+        "Częstochowski",
+        "Warmińsko-Mazurska"
+      ]
+    },
+    { "key": "Sekretariat", "login": ["u2"], "name": ["Śląska"] },
+    {
+      "key": "Pracownik merytoryczny",
+      "login": [
+        "u4",
+        "u5",
+        "u6",
+        "u7",
+        "u8",
+        "u10",
+        "u11",
+        "u12",
+        "u14",
+        "u19",
+        "u21",
+        "u23",
+        "u2"
+      ],
+      "name": [
+        "Małopolski",
+        "Podlaska",
+        "Kujawsko-Pomorska",
+        "Lubelski",
+        "Rzeszowska",
+        "Kołobrzeska",
+        "Białostocki",
+        "Świętokrzyska",
+        "Katowicka",
+        "Lubuski",
+        "Koszalińska",
+        "Opolska",
+        "Śląska"
+      ]
+    }
+  ],
+  "uzytkownik_stanowisko_rola_map": [
+    {
+      "key": "u24",
+      "stanowiska": {
+        "SSPA": ["Pracownik merytoryczny"],
+        "SSPZN": ["Kancelista"]
+      }
+    },
+    {
+      "key": "u1",
+      "stanowiska": {
+        "Administrator": ["Administrator"],
+        "BDG": ["Dyrektor"]
+      }
+    },
+    {
+      "key": "u12",
+      "stanowiska": {
+        "Administrator": ["Administrator"],
+        "SSPASI": ["Pracownik merytoryczny"]
+      }
+    }
+  ]
+}
